@@ -1,0 +1,9 @@
+# dsh-relationship-heart 的挂载补丁
+# 装法：dsh plugin --profile web add <来源>，然后重启 DSH。
+- insert:
+    - id: relationship-heart
+      name: dsh-relationship-heart
+      config:
+        enabled: true
+        windowDays: 7
+        order: 50
