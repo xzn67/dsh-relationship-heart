@@ -22,12 +22,10 @@
 ## 装
 
 ```bash
-dsh plugin --profile web add github:xzn67/dsh-relationship-heart
+dsh plugin --profile web add github:<你的账号>/dsh-relationship-heart
 # 本地目录：
 dsh plugin --profile web add file:D:/path/to/dsh-relationship-heart
 ```
-
-仓库：<https://github.com/xzn67/dsh-relationship-heart>
 
 装完**重启 DSH**（Web profile 不热重载插件）。
 
